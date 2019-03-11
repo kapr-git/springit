@@ -18,6 +18,6 @@ public class Vote {
     private int vote;
 
     //user
-    //Links
+    //Link
 
 }
