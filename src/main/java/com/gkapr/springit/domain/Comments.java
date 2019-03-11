@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 @Entity
 @Data
 @NoArgsConstructor
-public class Comments {
+public class Comments extends Auditable {
 
     @Id
     @GeneratedValue
