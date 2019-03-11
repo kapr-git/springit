@@ -1,14 +1,17 @@
 package com.gkapr.springit;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringitApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringitApplication.class, args);
-        System.out.println("Welcome to Springit!");
-    }
+	private static final Logger log = LoggerFactory.getLogger(SpringitApplication.class);
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringitApplication.class, args);
+	}
 
 }
